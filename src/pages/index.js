@@ -33,7 +33,7 @@ const options = {
         }
     },
 };
-
+const module = typeof window !== `undefined` ? require("react-owl-carousel-loop") : null
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
