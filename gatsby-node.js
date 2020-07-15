@@ -18,9 +18,7 @@ exports.onCreateWebpackConfig = ({
         new webpack.ProvidePlugin({
           $: 'jquery',
           jQuery: 'jquery',
-          'window.jQuery': 'jquery',
-		  'window.Zepto': 'jquery',
-		  'window': 'jquery'
+          'window.jQuery, window.Zepto, window': 'jquery'
         }),
       ],
     })
