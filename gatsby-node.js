@@ -19,7 +19,8 @@ exports.onCreateWebpackConfig = ({
           $: 'jquery',
           jQuery: 'jquery',
           'window.jQuery': 'jquery',
-		  'window.Zepto': 'jquery'
+		  'window.Zepto': 'jquery',
+		  'window': 'jquery'
         }),
       ],
     })
